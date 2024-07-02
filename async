@@ -1,0 +1,5 @@
+function async task(x) {
+const URL = 'https://kodaktor.ru/api/m/'; + x;
+fetch(URL).then(x => x.json()).then(x => x.result);
+return x;
+}
