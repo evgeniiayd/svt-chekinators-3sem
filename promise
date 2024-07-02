@@ -1,0 +1,3 @@
+function task(x) {
+return x >= 18 ? Promise.reject('no') : x == 0 ? Promise.resolve(1140103) : Promise.resolve('yes');
+}
