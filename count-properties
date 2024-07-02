@@ -1,0 +1,18 @@
+function task(x) {
+let obj = {
+login: '1140103',
+};
+obj = Object.defineProperty(obj, 'key3', {
+value: 2024,
+enumerable: false
+});
+let some = {
+key2: 2023,
+};
+some = Object.defineProperty(some, 'key1', {
+value: 2022,
+enumerable: false
+});
+obj = Object.setPrototypeOf(obj, some);
+return obj;
+}
