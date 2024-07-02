@@ -1,0 +1,14 @@
+function task(x) {
+if (x == null) {
+return '1140103'
+};
+let count = 0;
+let proto = Object.getPrototypeOf(x);
+while (proto) {
+if (proto !== null) {
+count++;
+}
+proto = Object.getPrototypeOf(proto);
+}
+return count;
+}
