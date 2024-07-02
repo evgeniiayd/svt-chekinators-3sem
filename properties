@@ -1,0 +1,8 @@
+function task(name, familyname, login) {
+this.name = name,
+this.familyname = familyname,
+this.login = '1140103',
+task.prototype.getFullName = function getFullName() {
+return this.name + this.familyname + '!'
+};
+}
